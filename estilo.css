@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(1.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.geral:hover{
+    box-shadow: 0 0 50px darkgray ;inset:0 0 50px darkgray ;
+    color: 0 0 50px darkgray;
+}
+
+
+.geral{
+    background: transparent;
+    width: 420px;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    backdrop-filter: black(500px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.geral h1{
+    font-size: 35px;
+    text-align: center;
+}
+
+.geral .caixas{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0 ;
+}
+
+.caixas input::placeholder{
+    color: white;
+}
+
+.caixas i{
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.caixas input{
+    background-color: darkgray;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    border-radius: 35px;
+    font-size: 20px;
+    color: white;
+    padding: 20px 45px ;
+}
+
+.geral .conectar{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+
+.conectar label input{
+    accent-color: rgba(0,0,0,0.1);
+}
+
+.conectar a{
+    color: black;
+    text-decoration: none;
+}
+
+.conectar a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+
+
+.geral .logar:hover{
+    background-color: black;
+    cursor: pointer;
+    color: aliceblue;
+}
+
+.geral .logar{
+    width: 100%;
+    border: none;
+    height: 45px;
+    background-color: darkgray;
+    font-weight: bolder;
+    border: none;
+    border-radius: 40px;
+    color: aliceblue;
+}
+
+button:hover{
+    background-color: black;
+}
+
+.geral .nova{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.geral .nova p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.geral .nova p a:hover{
+    text-decoration: underline;
+}
